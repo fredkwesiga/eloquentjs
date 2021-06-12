@@ -15,8 +15,13 @@ body {
 }
 
 .container {
+    position: absolute;
+    width: 500px;
+    background-color: #462f12;
     border: 2px solid antiquewhite;
     display: flex;
     border-radius: 30px;
     justify-content: center;
+    padding: 25px;
+    margin: 8% auto 0;
 }
