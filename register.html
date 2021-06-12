@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kampala fight club</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 col-md-8">
+                <h1>Kampala Fight club</h1>
+            </div>
+            <div>
+                <div>
+                    <form action="#" name="register" class="needs-validation" novalidate>
+
+                        <div>
+                            <label for="firstName" class="form-label">Name</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text icon"></span>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="DOB" class="form-label">Date Of Birth</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text"></span>
+                                <input type="date" class="form-control" id="dob">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="homeAdress" class="form-label">Region</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text"></span>
+                                <select class="form-select" id="region" required>
+                                                        <option value="">Central</option>
+                                                        <option>West</option>
+                                                        <option>North</option>
+                                                        <option>South</option>
+                                                        <option>East</option>
+                                                      </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="homeAdress" class="form-label">Home Address</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text"></span>
+                                <input type="text" class="form-control" id="adress" placeholder="city/town">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="weight" class="form-label">Category</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text"></span>
+                                <select class="form-select" id="weights" required>
+                                                            <option value="">Light Weight</option>
+                                                            <option>Middle Weight</option>
+                                                            <option>Heavy Weight</option>
+                                                     </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="contact" class="form-label">Contact</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text">+256</span>
+                                <input type="telephone" class="form-control" id="telephone" placeholder="0712345678" value="" required>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./dist/js/bootstrap.bundle.js"></script>
+    <script src="./dist/js/bootstrap.js"></script>
+    <script src="register.js "></script>
+</body>
+
+</html>

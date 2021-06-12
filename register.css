@@ -1,0 +1,22 @@
+.form-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #2b0707;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container {
+    border: 2px solid antiquewhite;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+}
